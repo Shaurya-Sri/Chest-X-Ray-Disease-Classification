@@ -132,22 +132,7 @@ cd frontend
 streamlit run streamlit_app.py
 ```
 
----
 
-## Training (Kaggle)
-
-Open `X-Ray.ipynb` on Kaggle with GPU enabled.
-
-```python
-# Install extra deps
-!pip install timm albumentations -q
-
-# Update paths in CFG
-'data_dir': '/kaggle/input/YOUR-DATASET-NAME',
-'img_dir' : '/kaggle/input/YOUR-DATASET-NAME/images',
-```
-
-Run all cells — `model.pkl` saves to `/kaggle/working/`. Expected runtime: **~45–60 min** on T4/P100.
 
 ---
 
